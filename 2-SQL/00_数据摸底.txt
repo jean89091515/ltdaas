@@ -1,16 +1,17 @@
 -- =====================================================================
--- 00_数据摸底.sql  —— "铁人三项"研究 第0步：数据可行性检查（v3，2026-10-19，APP 清单按智慧足迹名录定稿）
+-- 00_数据摸底.sql  —— "铁人三项"研究 第0步：数据可行性检查（v4，2026-10-27，导出语句去掉 uid）
 -- 平台：智慧足迹 DaaS（Spark/Hive SQL），北京 city='V0110000'
 -- 月份分区：date = yyyymm01，例如 20250901 表示 2025 年 9 月
 --
 -- 【合规规则，本文件逐条遵守】
---  R1 凡是出现 uid 明细（select uid / distinct uid / 按 uid 关联）的语句，一律写成
+--  R1 凡是出现 uid 的语句（select uid / count(distinct uid) / 按 uid 关联），一律写成
 --     CREATE TABLE wl_xxx AS ...，只在系统内落表，不导出。
---  R2 凡是要导出的 SELECT（标【导出】）：结果列里没有 uid；uid 只出现在 count() 里；
---     不按 uid 关联、不含 select uid 子查询；只读 wl_ 中间表或做 count/sum 汇总。
+--  R2 凡是要导出的 SELECT（标【导出】）：语句里完全不出现 uid（count(distinct uid) 也不行，
+--     平台会报"对uid进行非法操作"）；只读 wl_ 中间表。
 --  R3 每个【导出】结果都注明预计行数，均远小于 1 万行。
 --  R4 平台屏蔽 drop/delete/alter：中间表不能删，重跑时把表名末尾的 _v1 改成 _v2。
 --  R5 结果中单格少于 15 人会被平台显示为"≤15"，属正常。
+--  R6 平台不允许出现星号字符（select 星号、p.星号、乘号都会报"非法字符"），列名一律写全。
 --
 -- 运行顺序：A1 → A2 → A3 → A4 → A5 → A6。每段相互独立，报错只影响本段。
 -- 若平台不支持某个函数（如 nvl/coalesce），把报错截图发回即可。
@@ -21,20 +22,24 @@
 -- A1 有哪些月份：各表在北京有哪些 date 分区
 --    目的：确认 2019—2026 年 3/6/9/12 月中，哪些月份几张表都有
 -- ---------------------------------------------------------------------
+create table wl_tri_a1_part_v1 as
+select tb, date, n_row, n_user from (
+    select 'user_app' as tb, date, count(1) as n_row, count(distinct uid) as n_user
+    from user_app where city = 'V0110000' group by date
+    union all
+    select 'user_attribute' as tb, date, count(1) as n_row, count(distinct uid) as n_user
+    from user_attribute where city = 'V0110000' group by date
+    union all
+    select 'stay_poi' as tb, date, count(1) as n_row, count(distinct uid) as n_user
+    from stay_poi where city = 'V0110000' group by date
+    union all
+    select 'move_month' as tb, date, count(1) as n_row, count(distinct uid) as n_user
+    from move_month where city = 'V0110000' group by date
+) t;
+
 -- 【导出 A1】预计 4 张表 × 约 30 个月份 ≈ 120 行
-select 'user_app' as tb, date, count(1) as n_row, count(distinct uid) as n_user
-from user_app where city = 'V0110000' group by date
-union all
-select 'user_attribute' as tb, date, count(1) as n_row, count(distinct uid) as n_user
-from user_attribute where city = 'V0110000' group by date
-union all
-select 'stay_poi' as tb, date, count(1) as n_row, count(distinct uid) as n_user
-from stay_poi where city = 'V0110000' group by date
-union all
-select 'move_month' as tb, date, count(1) as n_row, count(distinct uid) as n_user
-from move_month where city = 'V0110000' group by date;
--- 若 move_month 是日分区（date 为具体日期），这一段会有几百行，仍在 1 万行内；
--- 若整段运行太慢，可以每张表单独跑。
+select tb, date, n_row, n_user from wl_tri_a1_part_v1;
+-- 若 move_month 是日分区（date 为具体日期），这一段会有几百行，仍在 1 万行内。
 
 
 -- ---------------------------------------------------------------------
@@ -69,9 +74,9 @@ select date, count(1) as n_core from wl_tri_a2_uid_v1 group by date;
 
 -- ---------------------------------------------------------------------
 -- A3a APP 用户数与时长：按 APP识别字典 的确切名称统计（含"待定"名称，用来决定是否纳入）
---    分别对 20250901 和最早可用的 9 月各跑一次（把 20250901 换掉即可）
+--    分别对 20250901 和最早可用的 9 月各跑一次（把本段的 20250901 全部换掉即可，表名随之改变）
 -- ---------------------------------------------------------------------
--- 【导出 A3a】最多 95 行
+create table wl_tri_a3a_20250901_v1 as
 select lcode,
        count(distinct uid)          as n_user,
        round(sum(ltime) / 3600000)  as total_hour,
@@ -99,12 +104,15 @@ where city = 'V0110000' and date = 20250901
                 '聚的出租', '优途快达司机', '菜鸟先飞', '司机宝经纪人', '微代驾')
 group by lcode;
 
+-- 【导出 A3a】最多 95 行
+select lcode, n_user, total_hour, total_mb from wl_tri_a3a_20250901_v1;
+
 
 -- ---------------------------------------------------------------------
 -- A3b 旧名称核对（模糊检索）：只对最早可用年份跑，查早年 APP 是否改过名
---    （如"达达秒送骑士""京东达达"等旧称）；把 20190901 换成 A1 中最早的 9 月
+--    （如"达达秒送骑士""京东达达"等旧称）；把本段的 20190901 全部换成 A1 中最早的 9 月
 -- ---------------------------------------------------------------------
--- 【导出 A3b】预计几十到两三百行
+create table wl_tri_a3b_20190901_v1 as
 select lcode,
        count(distinct uid)          as n_user,
        round(sum(ltime) / 3600000)  as total_hour,
@@ -126,15 +134,26 @@ where city = 'V0110000' and date = 20190901
        or lcode like '%斗米%' or lcode like '%猪八戒%' or lcode like '%威客%'
        or lcode like '%程序员%' or lcode like '%码市%' or lcode like '%电鸭%'
        or lcode like '%站酷%' or lcode like '%阿姨%' or lcode like '%家政%')
-group by lcode
-having count(distinct uid) >= 15;
+group by lcode;
 
--- 【导出 A3c】北京当月 APP 总数（判断能否一次导出全量名录），1 行
-select count(1) as n_app
-from (select lcode from user_app
-      where city = 'V0110000' and date = 20250901
-      group by lcode having count(distinct uid) >= 15) t;
--- 若 n_app < 1 万，可以把上面 A3 的 like 条件去掉，导出全量 APP 名录（lcode、n_user、total_hour）
+-- 【导出 A3b】预计几十到两三百行
+select lcode, n_user, total_hour, total_mb from wl_tri_a3b_20190901_v1
+where n_user >= 15;
+
+-- A3c 北京当月全部 APP 的用户数与时长（判断能否一次导出全量名录）
+create table wl_tri_a3c_20250901_v1 as
+select lcode,
+       count(distinct uid)          as n_user,
+       round(sum(ltime) / 3600000)  as total_hour
+from user_app
+where city = 'V0110000' and date = 20250901
+group by lcode;
+
+-- 【导出 A3c】北京当月 APP 总数，1 行
+select count(1) as n_app from wl_tri_a3c_20250901_v1 where n_user >= 15;
+
+-- 【导出 A3d（可选）】若 A3c 的 n_app < 1 万，再跑这条，导出全量 APP 名录
+select lcode, n_user, total_hour from wl_tri_a3c_20250901_v1 where n_user >= 15;
 
 
 -- ---------------------------------------------------------------------
@@ -253,9 +272,9 @@ group by grp, job_blue, job_general, job_white, parttime;
 
 
 -- =====================================================================
--- 自查清单（v2）
---  含 uid 明细的语句：A2 两条、A4 一条、A5 三条、A6 两条 —— 全部为 CREATE TABLE
---  【导出】语句：A1、A2-1、A2-2、A3a、A3b、A3c、A4、A5、A6 —— 结果列均无 uid，
---               uid 仅出现在 count(distinct uid) 中（A1、A3），均不按 uid 关联
---  预计导出行数：A1 ≈120，A2 ≤21+7，A3a ≤95，A3b ≤300，A3c 1，A4 ≤406，A5 ≤48，A6 ≤32
+-- 自查清单（v4）
+--  含 uid 的语句：A1 一条、A2 两条、A3 三条、A4 一条、A5 三条、A6 两条 —— 全部为 CREATE TABLE
+--  【导出】语句：A1、A2-1、A2-2、A3a、A3b、A3c、A3d、A4、A5、A6 —— 只读 wl_ 中间表，
+--               语句中不出现 uid
+--  预计导出行数：A1 ≈120，A2 ≤21+7，A3a ≤95，A3b ≤300，A3c 1，A3d <1 万，A4 ≤406，A5 ≤48，A6 ≤32
 -- =====================================================================
