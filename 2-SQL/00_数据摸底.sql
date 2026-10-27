@@ -11,6 +11,7 @@
 --  R3 每个【导出】结果都注明预计行数，均远小于 1 万行。
 --  R4 平台屏蔽 drop/delete/alter：中间表不能删，重跑时把表名末尾的 _v1 改成 _v2。
 --  R5 结果中单格少于 15 人会被平台显示为"≤15"，属正常。
+--  R6 平台不允许出现星号字符（select 星号、p.星号、乘号都会报"非法字符"），列名一律写全。
 --
 -- 运行顺序：A1 → A2 → A3 → A4 → A5 → A6。每段相互独立，报错只影响本段。
 -- 若平台不支持某个函数（如 nvl/coalesce），把报错截图发回即可。
@@ -22,7 +23,7 @@
 --    目的：确认 2019—2026 年 3/6/9/12 月中，哪些月份几张表都有
 -- ---------------------------------------------------------------------
 create table wl_tri_a1_part_v1 as
-select * from (
+select tb, date, n_row, n_user from (
     select 'user_app' as tb, date, count(1) as n_row, count(distinct uid) as n_user
     from user_app where city = 'V0110000' group by date
     union all

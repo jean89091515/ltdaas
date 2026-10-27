@@ -12,6 +12,7 @@
 --  R2 【导出】语句结果列无 uid，uid 不出现，不按 uid 关联
 --  R3 每个【导出】注明预计最大行数，均 < 1 万行
 --  R4 不能 drop：重跑时把 _v1 改成 _v2
+--  R5 不能出现星号字符（select 星号、p.星号、乘号都会报"非法字符"），列名一律写全
 --
 -- 【参数】状态判定默认 T=50 小时（见 01）；A0 另外按 T=20、T=100 重新判定一次，用于敏感性分析
 -- =====================================================================
@@ -202,7 +203,8 @@ group by wave, work_lu, work_ring, state;
 --   若有 2026 年的数据，去掉末尾注释符号即可加入
 -- ---------------------------------------------------------------------
 create table wl_tri_panel0_v1 as
-select * from (
+select uid, wave, state, is_multi, n_gig_type, gender, age_g, origin, arpu_g, is_local, weight, home_fnid, home_county, work_fnid, work_county, h_food, h_ride, h_exp, h_frt, h_job, job_blue, job_general, job_white, parttime, other_gig
+from (
     select uid, wave, state, is_multi, n_gig_type, gender, age_g, origin, arpu_g, is_local, weight, home_fnid, home_county, work_fnid, work_county, h_food, h_ride, h_exp, h_frt, h_job, job_blue, job_general, job_white, parttime, other_gig from wl_tri_state_201903_v1
     union all
     select uid, wave, state, is_multi, n_gig_type, gender, age_g, origin, arpu_g, is_local, weight, home_fnid, home_county, work_fnid, work_county, h_food, h_ride, h_exp, h_frt, h_job, job_blue, job_general, job_white, parttime, other_gig from wl_tri_state_201906_v1
@@ -272,11 +274,14 @@ select * from (
 --   （若中间缺某一期，转移间隔会变成 6 个月，03 的导出里保留了起止月份，可以识别）
 -- ---------------------------------------------------------------------
 create table wl_tri_waves_v1 as
-select wave, year, wave_seq,
+--   wave_seq = (年份 - 2019) × 4 + 季度；平台不允许乘号，用 yd 连加 4 次代替
+select wave, year,
+       yd + yd + yd + yd + q as wave_seq,
        row_number() over (order by wave) as wave_rank
 from (select wave,
              cast(wave / 100 as int) as year,
-             (cast(wave / 100 as int) - 2019) * 4 + cast((wave % 100) / 3 as int) as wave_seq
+             cast(wave / 100 as int) - 2019 as yd,
+             cast((wave % 100) / 3 as int) as q
       from wl_tri_panel0_v1
       group by wave) t;
 
@@ -284,7 +289,8 @@ from (select wave,
 -- B2 正式面板：原始面板加上期次信息（含 uid，只留在系统内，03 使用）
 -- ---------------------------------------------------------------------
 create table wl_tri_panel_v1 as
-select p.*, w.year, w.wave_seq, w.wave_rank
+select p.uid, p.wave, p.state, p.is_multi, p.n_gig_type, p.gender, p.age_g, p.origin, p.arpu_g, p.is_local, p.weight, p.home_fnid, p.home_county, p.work_fnid, p.work_county, p.h_food, p.h_ride, p.h_exp, p.h_frt, p.h_job, p.job_blue, p.job_general, p.job_white, p.parttime, p.other_gig,
+       w.year, w.wave_seq, w.wave_rank
 from wl_tri_panel0_v1 p
 inner join wl_tri_waves_v1 w on p.wave = w.wave;
 
