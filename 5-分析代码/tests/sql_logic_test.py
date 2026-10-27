@@ -1,9 +1,11 @@
 """用模拟数据在本地 DuckDB 中跑通 02_截面汇总（A、B 部分）和 03_转移汇总，
-并与 Python 独立计算的结果对照，检查 SQL 逻辑是否正确。
+并与 Python 独立计算的结果对照，检查 SQL 逻辑是否正确；
+另检查所有 SQL 文件的导出语句都不出现 uid（平台会报"对uid进行非法操作"）。
 
 用法：python3 sql_logic_test.py <2-SQL 目录>
 说明：01_状态表 依赖平台专有函数（to_date、unix_timestamp），不在本测试范围。
 """
+import glob
 import random
 import re
 import sys
@@ -37,6 +39,17 @@ def run_sql(con, path, start=None, stop=None, token=None):
             print('ERROR:', ' '.join(st.split())[:120], '\n   ', str(e)[:200])
             out.append(-1)
     return out
+
+
+def test_no_uid_in_exports():
+    bad = []
+    for path in sorted(glob.glob(f'{SQLDIR}/*.sql')):
+        s = re.sub(r'--[^\n]*', '', open(path, encoding='utf-8').read())
+        for st in [x.strip() for x in s.split(';') if x.strip()]:
+            if not st.lower().startswith('create') and re.search(r'\buid\b', st, re.I):
+                bad.append(f"{path}: {' '.join(st.split())[:100]}")
+    assert not bad, 'uid in export statements:\n' + '\n'.join(bad)
+    print('OK uid: no export statement references uid')
 
 
 def test_panel_and_transitions():
@@ -131,5 +144,6 @@ def test_cross_section():
 
 
 if __name__ == '__main__':
+    test_no_uid_in_exports()
     test_panel_and_transitions()
     test_cross_section()

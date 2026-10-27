@@ -14,7 +14,7 @@
 --
 -- 【合规规则】（同 00_数据摸底.sql）
 --  R1 含 uid 明细的语句一律 CREATE TABLE，不导出。
---  R2 【导出】语句结果列无 uid，uid 只出现在 count() 里，不按 uid 关联。
+--  R2 【导出】语句结果列无 uid，语句中不出现 uid（count(distinct uid) 也不行），不按 uid 关联。
 --  R3 每个【导出】注明预计行数，均 < 1 万行。
 --  R4 不能 drop：重跑时把 _v1 改成 _v2。
 --
