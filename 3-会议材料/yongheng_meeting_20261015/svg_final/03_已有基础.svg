@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 96" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">01 · 背景与研究问题</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">全国底数已经做完，下一步从县域静态走到北京个体动态</text>
+  </g>
+
+  <g id="lead" data-pptx-bounds="64 150 1152 40">
+    <text x="64" y="178" font-size="22" fill="#5B6675">起因：张所关心灵活就业，领导要求做就业数据系列研究</text>
+  </g>
+
+  <g id="achievements" data-pptx-bounds="64 204 800 380">
+    <line x1="72" y1="222" x2="856" y2="222" stroke="#D5DBE3" stroke-width="2" />
+    <g id="done-cmep">
+      <circle cx="72" cy="222" r="7" fill="#1B3A5C" />
+      <text x="64" y="270" font-size="24" font-weight="bold" fill="#1B3A5C">CMEP-2020 数据集</text>
+      <text x="64" y="340" font-size="48" font-weight="bold" fill="#1B3A5C">2989</text>
+      <text x="64" y="372" font-size="18" fill="#5B6675">个县级单元</text>
+      <text font-size="20" fill="#1E2633" x="64" y="420">20 个行业、7 个职业</text><text font-size="20" fill="#1E2633" x="64" y="450"><tspan>官方口径 <tspan font-weight="bold" fill="#1B3A5C">7.51 亿</tspan>就业人员</tspan></text><rect x="64" y="520" width="214" height="36" fill="#F3F5F8" />
+      <text x="76" y="544" font-size="18" font-weight="bold" fill="#3E7CB1">已投《中国科学数据》</text>
+    </g>
+    <g id="done-scaling">
+      <circle cx="344" cy="222" r="7" fill="#1B3A5C" />
+      <text x="336" y="270" font-size="24" font-weight="bold" fill="#1B3A5C">就业职能标度论文</text>
+      <text x="336" y="340" font-size="48" font-weight="bold" fill="#1B3A5C">2189</text>
+      <text x="336" y="372" font-size="18" fill="#5B6675">个城镇单元</text>
+      <text font-size="20" fill="#1E2633" x="336" y="420">《规模与等级》：</text><text font-size="20" fill="#1E2633" x="336" y="450">标度律与行政等级溢价</text><rect x="336" y="520" width="178" height="36" fill="#F3F5F8" />
+      <text x="348" y="544" font-size="18" font-weight="bold" fill="#3E7CB1">已投《地理学报》</text>
+    </g>
+    <g id="done-flexible">
+      <circle cx="616" cy="222" r="7" fill="#1B3A5C" />
+      <text x="608" y="270" font-size="24" font-weight="bold" fill="#1B3A5C">个体经营型灵活就业</text>
+      <text x="608" y="340" font-size="48" font-weight="bold" fill="#1B3A5C">1.71 亿</text>
+      <text x="608" y="372" font-size="18" fill="#5B6675">人，占非农就业 29.8%</text>
+      <text x="608" y="420" font-size="20" fill="#1E2633">全国县域测算</text>
+      <rect x="608" y="520" width="64" height="36" fill="#F3F5F8" />
+      <text x="620" y="544" font-size="18" font-weight="bold" fill="#3E7CB1">在写</text>
+    </g>
+  </g>
+
+  <g id="p03-next-arrow" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="868 372 64 44" fill="#1B3A5C" stroke="none">
+<path d="M 868 383 L 910 383 L 910 372 L 932 394 L 910 416 L 910 405 L 868 405 Z" />
+</g>
+
+  <g id="next-step" data-pptx-bounds="944 200 272 400">
+    <rect x="944" y="200" width="272" height="400" fill="#1B3A5C" />
+    <text x="976" y="252" font-size="18" font-weight="bold" fill="#E3A21A">下一步</text>
+    <text x="976" y="302" font-size="32" font-weight="bold" fill="#FFFFFF">北京个体动态</text>
+    
+  <g transform="translate(976, 340) scale(1.66667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" />
+  </g>
+    
+  <g transform="translate(1028, 340) scale(1.66667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
+    <path d="M11 4h2" />
+    <path d="M12 17v.01" />
+  </g>
+    <text font-size="20" fill="#FFFFFF" x="976" y="436">用联通 DaaS</text><text font-size="20" fill="#FFFFFF" x="976" y="466">从个体角度识别</text><text font-size="20" fill="#FFFFFF" x="976" y="496">平台从业者</text></g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">来源：CMEP-2020 数据论文；《规模与等级》投稿稿；个体经营型灵活就业研究 V1.0</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">03 / 13</text>
+  </g>
+</svg>

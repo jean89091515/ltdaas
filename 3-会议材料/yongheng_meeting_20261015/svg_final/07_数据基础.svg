@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">02 · 数据与方法</text>
+    <text font-size="40" fill="#1B3A5C" x="64" y="118">联通 DaaS 几张表就能拼出“用什么 APP、</text><text font-size="40" fill="#1B3A5C" x="64" y="168">住哪、在哪干活、户籍从哪来”</text></g>
+
+  <g id="scope" data-pptx-bounds="64 196 1152 40">
+    
+  <g transform="translate(64, 200) scale(1.16667)" fill="none" stroke="#3E7CB1" stroke-width="2">
+    <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12" />
+    <path d="M16 3v4" />
+    <path d="M8 3v4" />
+    <path d="M4 11h16" />
+    <path d="M11 15h1" />
+    <path d="M12 15v3" />
+  </g>
+    <text x="104" y="222" font-size="22" fill="#1E2633">范围：<tspan font-weight="bold" fill="#1B3A5C">北京</tspan>，每年 <tspan font-weight="bold" fill="#1B3A5C">3、6、9、12 月</tspan></text>
+  </g>
+
+  <g id="daas-tables" data-pptx-replace-with="table" data-pptx-bounds="64 244 1152 388" data-pptx-fallback-sha256="6aa5468cf57406c469d1841a4e162a243bb6827000d60f1893cb00ff7c3a61c3">
+    <metadata type="application/json">{"schema": "ppt-master.semantic-table.v2", "name": "daas-tables", "x": 64, "y": 244, "width": 1152, "height": 388, "column_widths": [210, 600, 342], "row_heights": [46, 58, 84, 84, 58, 58], "header_rows": 1, "style": {"font_family": "Microsoft YaHei", "font_size": 20, "band_row": false}, "defaults": {"cell": {"valign": "middle", "color": "#1E2633", "padding_left": 16, "padding_right": 12, "borders": {"top": {"style": "none"}, "left": {"style": "none"}, "right": {"style": "none"}, "bottom": {"style": "solid", "color": "#D5DBE3", "width": 1}}}}, "cell_styles": {"head": {"fill": "#F3F5F8", "bold": true, "color": "#1B3A5C", "borders": {"top": {"style": "solid", "color": "#1B3A5C", "width": 2}, "left": {"style": "none"}, "right": {"style": "none"}, "bottom": {"style": "solid", "color": "#1B3A5C", "width": 1}}, "align": "l"}, "last": {"borders": {"top": {"style": "none"}, "left": {"style": "none"}, "right": {"style": "none"}, "bottom": {"style": "solid", "color": "#1B3A5C", "width": 2}}}}, "columns": [{"text": "表", "cell_style": "head", "align": "l"}, {"text": "主要字段", "cell_style": "head", "align": "l"}, {"text": "用来回答", "cell_style": "head", "align": "l"}], "rows": [[{"paragraphs": [{"align": "l", "runs": [{"text": "user_app", "bold": true, "color": "#1B3A5C", "font_family": "Consolas"}]}], "color": "#1B3A5C", "bold": true}, {"text": "每人每月每个 APP 的使用时长（毫秒）与流量"}, {"text": "识别平台工作、求职、兼职"}], [{"paragraphs": [{"align": "l", "runs": [{"text": "user_attribute", "bold": true, "color": "#1B3A5C", "font_family": "Consolas"}]}], "color": "#1B3A5C", "bold": true}, {"text": "年龄段、性别、身份证前 6 位、月通讯费、是否本地、核心用户、扩样权重"}, {"text": "人群画像、户籍来源、扩样"}], [{"paragraphs": [{"align": "l", "runs": [{"text": "stay_poi", "bold": true, "color": "#1B3A5C", "font_family": "Consolas"}]}], "color": "#1B3A5C", "bold": true}, {"text": "月度停留点（ptype 1 居住、2 工作、0 其他）及工作日白天、夜间停留时长"}, {"text": "有无固定工作地、居住地"}], [{"paragraphs": [{"align": "l", "runs": [{"text": "move_month", "bold": true, "color": "#1B3A5C", "font_family": "Consolas"}]}], "color": "#1B3A5C", "bold": true}, {"text": "出行次数、距离、时长"}, {"text": "校验“在路上干活”"}], [{"cell_style": "last", "paragraphs": [{"align": "l", "runs": [{"text": "ss_city_grid", "bold": true, "color": "#1B3A5C", "font_family": "Consolas"}]}], "color": "#1B3A5C", "bold": true}, {"cell_style": "last", "text": "250 米网格编号、区县"}, {"cell_style": "last", "text": "落到区县、街道"}]]}</metadata>
+    <rect x="64" y="244" width="1152" height="46" fill="#F3F5F8" />
+    <line x1="64" y1="244" x2="1216" y2="244" stroke="#1B3A5C" stroke-width="2" />
+    <line x1="64" y1="290" x2="1216" y2="290" stroke="#1B3A5C" stroke-width="1" />
+    <g font-size="20" font-weight="bold" fill="#1B3A5C">
+      <text x="80" y="274">表</text>
+      <text x="290" y="274">主要字段</text>
+      <text x="890" y="274">用来回答</text>
+    </g>
+    <line x1="64" y1="348" x2="1216" y2="348" stroke="#D5DBE3" stroke-width="1" />
+    <line x1="64" y1="432" x2="1216" y2="432" stroke="#D5DBE3" stroke-width="1" />
+    <line x1="64" y1="516" x2="1216" y2="516" stroke="#D5DBE3" stroke-width="1" />
+    <line x1="64" y1="574" x2="1216" y2="574" stroke="#D5DBE3" stroke-width="1" />
+    <line x1="64" y1="632" x2="1216" y2="632" stroke="#1B3A5C" stroke-width="2" />
+    <g font-family="Consolas, 'Microsoft YaHei', monospace" font-size="20" font-weight="bold" fill="#1B3A5C">
+      <text x="80" y="326">user_app</text>
+      <text x="80" y="397">user_attribute</text>
+      <text x="80" y="481">stay_poi</text>
+      <text x="80" y="552">move_month</text>
+      <text x="80" y="610">ss_city_grid</text>
+    </g>
+    <g font-size="20" fill="#1E2633">
+      <text x="290" y="326">每人每月每个 APP 的使用时长（毫秒）与流量</text>
+      <text x="290" y="383">年龄段、性别、身份证前 6 位、月通讯费、是否本地、</text><text x="290" y="411">核心用户、扩样权重</text><text x="290" y="467">月度停留点（ptype 1 居住、2 工作、0 其他）及</text><text x="290" y="495">工作日白天、夜间停留时长</text><text x="290" y="552">出行次数、距离、时长</text>
+      <text x="290" y="610">250 米网格编号、区县</text>
+      <text x="890" y="326">识别平台工作、求职、兼职</text>
+      <text x="890" y="397">人群画像、户籍来源、扩样</text>
+      <text x="890" y="481">有无固定工作地、居住地</text>
+      <text x="890" y="552">校验“在路上干活”</text>
+      <text x="890" y="610">落到区县、街道</text>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">来源：智慧足迹 DaaS 数据字典（daasbi，2018）；可用月份据双方数据合作安排</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">07 / 13</text>
+  </g>
+</svg>

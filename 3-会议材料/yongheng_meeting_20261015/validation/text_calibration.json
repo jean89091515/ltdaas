@@ -1,0 +1,67 @@
+{
+  "roles": {
+    "body": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 24.0,
+      "cjk_chars_per_100px": 3.9,
+      "latin_chars_per_100px": 8.1,
+      "longest_planned_line": {
+        "px": 7984.6,
+        "slide": "P10",
+        "text": "00 数据摸底：月份覆盖、uid 能否跨期、APP 名录、时长分布、行为校验 …"
+      }
+    },
+    "title": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 42.0,
+      "cjk_chars_per_100px": 2.2,
+      "latin_chars_per_100px": 4.6,
+      "longest_planned_line": {
+        "px": 1475.3,
+        "slide": "P07",
+        "text": "联通 DaaS 几张表就能拼出\"用什么 APP、住哪、在哪干活、户籍从哪来\""
+      }
+    },
+    "subtitle": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 32.0,
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.1,
+      "longest_planned_line": {
+        "px": 1302.8,
+        "slide": "P01",
+        "text": "用联通 APP 加位置数据追踪北京\"铁人三项\"从业者，回答平台工作是跳板还是陷阱"
+      }
+    },
+    "annotation": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 18.0,
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 10.8,
+      "longest_planned_line": null
+    },
+    "code": {
+      "family": "Consolas, \"Microsoft YaHei\", monospace",
+      "size": 18.0,
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 10.8,
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 14.0,
+      "cjk_chars_per_100px": 6.7,
+      "latin_chars_per_100px": 13.9,
+      "longest_planned_line": null
+    },
+    "hero_number": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 48.0,
+      "cjk_chars_per_100px": 2.0,
+      "latin_chars_per_100px": 4.0,
+      "longest_planned_line": null
+    }
+  },
+  "source": "spec_lock.md",
+  "generated_at": "2026-10-15T07:34:20Z"
+}

@@ -1,0 +1,970 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "ba0111a799f227397d75535443659894382374866004d8c35adbf5db13e11fbd",
+    "file_count": 13,
+    "files": [
+      {
+        "file": "01_封面.svg",
+        "sha256": "da63ffdcea19e940f1ad21830dcb1cb1c7e954fe671a1c8eb4a840db542ab4bc"
+      },
+      {
+        "file": "02_会议目标.svg",
+        "sha256": "9dd7a6c9eb154243fb7c0f03c7b1190a855ee08044cf0239820c68fe8cff2c52"
+      },
+      {
+        "file": "03_已有基础.svg",
+        "sha256": "d73610ebae93c79fc7fd653200a02ddb5415a8b648cb35db4d533fd54d1198c2"
+      },
+      {
+        "file": "04_研究问题.svg",
+        "sha256": "5317faa40fb3ea05538fecfa2ddec2fe1e4a7fff5694ffda6a38f0405c057fe1"
+      },
+      {
+        "file": "05_核心检验.svg",
+        "sha256": "33290eec6be08ca449c9f033eb2e962cddfb8313df851df53acfccf2437af74e"
+      },
+      {
+        "file": "06_已有研究.svg",
+        "sha256": "b1e5a64a58d3ad5b3022d0ae14966d6cb76ce09d11dee8cb7d36edb4ce0cc452"
+      },
+      {
+        "file": "07_数据基础.svg",
+        "sha256": "7c790304ed1c2fc5fdf527f8f9076d456d186c85ded5a30507098a5e739bb805"
+      },
+      {
+        "file": "08_识别方法.svg",
+        "sha256": "83fe7ef63dfc167bc9734473199be1c13c7cb718f4beb1b8bb4d306c87612aae"
+      },
+      {
+        "file": "09_APP名录.svg",
+        "sha256": "d73d4a30f07c9885ce798d61c52f5aa8565547068b712d27ade689c4508af03e"
+      },
+      {
+        "file": "10_分析流程.svg",
+        "sha256": "c4b1c874dc2681c7411abc34dacfd113ea36eb50295b81950c7519cfdddc80ff"
+      },
+      {
+        "file": "11_预期成果.svg",
+        "sha256": "ee374a255de49e7bbb41e1e2e97160caf5eb3ce824ee59a2aa3019548bec8c91"
+      },
+      {
+        "file": "12_待确认问题.svg",
+        "sha256": "cfa1cba3b783e05d08908f133db11fee5a556381be2778841a2f12c752f78dfe"
+      },
+      {
+        "file": "13_分工与下一步.svg",
+        "sha256": "007cb636465ceaf787f983e812ac7f7825428f93bda62ceacc15eb3be3d3f192"
+      }
+    ]
+  },
+  "summary": {
+    "total": 13,
+    "passed": 11,
+    "warnings": 2,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 2,
+      "issues": [
+        {
+          "file": "10_分析流程.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=590; text='· 每张导出 ≤ 1 万行（实际最大约 …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "12_待确认问题.svg",
+          "message": "<text> (x=124, y=209; text='新版 APP 名录与上网标签码表近两年北…') exceeds <g id=\"q01\"> data-pptx-bounds on the horizontal axis: content (124.0, 192.0)-(621.3, 244.0), container (64.0, 172.0)-(620.0, 264.0), overflow horizontal 0.2%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈20.7 px per mixed char at 20px incl. headroom; ≈26 chars fit in 556 px"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#FCF3DF": [
+        "08_识别方法.svg",
+        "09_APP名录.svg",
+        "12_待确认问题.svg",
+        "13_分工与下一步.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {
+      "96": [
+        "01_封面.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 13,
+    "totals": {
+      "text_elements": 284,
+      "image_placements": 0,
+      "icons": 29,
+      "svg_geometry_elements": 145,
+      "preset_shapes": 10,
+      "page_frame_elements": 26,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 30,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 11,
+      "presets": 3,
+      "charts": 0,
+      "tables": 2,
+      "formulas": 0,
+      "inline_emphasis_runs": 11,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "geometry_elements": {
+      "circle": 26,
+      "ellipse": 0,
+      "line": 49,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 70
+    },
+    "preset_names": {
+      "chevron": 7,
+      "homePlate": 2,
+      "rightArrow": 1
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 2
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_封面.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/01_封面.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 2,
+        "sparse_typography_sizes": {
+          "96": 2
+        }
+      },
+      "passed": true,
+      "source_sha256": "da63ffdcea19e940f1ad21830dcb1cb1c7e954fe671a1c8eb4a840db542ab4bc"
+    },
+    {
+      "file": "02_会议目标.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/02_会议目标.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "9dd7a6c9eb154243fb7c0f03c7b1190a855ee08044cf0239820c68fe8cff2c52"
+    },
+    {
+      "file": "03_已有基础.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/03_已有基础.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "rightArrow": 1
+            },
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "d73610ebae93c79fc7fd653200a02ddb5415a8b648cb35db4d533fd54d1198c2"
+    },
+    {
+      "file": "04_研究问题.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/04_研究问题.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 4,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "5317faa40fb3ea05538fecfa2ddec2fe1e4a7fff5694ffda6a38f0405c057fe1"
+    },
+    {
+      "file": "05_核心检验.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/05_核心检验.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "33290eec6be08ca449c9f033eb2e962cddfb8313df851df53acfccf2437af74e"
+    },
+    {
+      "file": "06_已有研究.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/06_已有研究.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "b1e5a64a58d3ad5b3022d0ae14966d6cb76ce09d11dee8cb7d36edb4ce0cc452"
+    },
+    {
+      "file": "07_数据基础.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/07_数据基础.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif",
+          "Consolas, 'Microsoft YaHei', monospace"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "7c790304ed1c2fc5fdf527f8f9076d456d186c85ded5a30507098a5e739bb805"
+    },
+    {
+      "file": "08_识别方法.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/08_识别方法.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 12,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 19,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif",
+          "Consolas, 'Microsoft YaHei', monospace"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 16,
+        "contextual_values": {
+          "colors": [
+            "#FCF3DF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "83fe7ef63dfc167bc9734473199be1c13c7cb718f4beb1b8bb4d306c87612aae"
+    },
+    {
+      "file": "09_APP名录.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/09_APP名录.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#FCF3DF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d73d4a30f07c9885ce798d61c52f5aa8565547068b712d27ade689c4508af03e"
+    },
+    {
+      "file": "10_分析流程.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/10_分析流程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=590; text='· 每张导出 ≤ 1 万行（实际最大约 …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 28,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 4,
+            "preset_names": {
+              "chevron": 3,
+              "homePlate": 1
+            },
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif",
+          "Consolas, 'Microsoft YaHei', monospace"
+        ],
+        "text_elements": 28,
+        "tspan_elements": 18
+      },
+      "passed": true,
+      "source_sha256": "c4b1c874dc2681c7411abc34dacfd113ea36eb50295b81950c7519cfdddc80ff"
+    },
+    {
+      "file": "11_预期成果.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/11_预期成果.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "ee374a255de49e7bbb41e1e2e97160caf5eb3ce824ee59a2aa3019548bec8c91"
+    },
+    {
+      "file": "12_待确认问题.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/12_待确认问题.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "<text> (x=124, y=209; text='新版 APP 名录与上网标签码表近两年北…') exceeds <g id=\"q01\"> data-pptx-bounds on the horizontal axis: content (124.0, 192.0)-(621.3, 244.0), container (64.0, 172.0)-(620.0, 264.0), overflow horizontal 0.2%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈20.7 px per mixed char at 20px incl. headroom; ≈26 chars fit in 556 px"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 10,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif",
+          "Consolas, 'Microsoft YaHei', monospace"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 30,
+        "contextual_values": {
+          "colors": [
+            "#FCF3DF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "cfa1cba3b783e05d08908f133db11fee5a556381be2778841a2f12c752f78dfe"
+    },
+    {
+      "file": "13_分工与下一步.svg",
+      "path": "/Users/liangwang/0-成果转化/01-论文/50-就业人口数据集/10-北京平台从业者研究/3-会议材料/yongheng_meeting_20261015/svg_output/13_分工与下一步.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 5,
+            "preset_names": {
+              "chevron": 4,
+              "homePlate": 1
+            },
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "'Microsoft YaHei', Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 10,
+        "contextual_values": {
+          "colors": [
+            "#FCF3DF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "007cb636465ceaf787f983e812ac7f7825428f93bda62ceacc15eb3be3d3f192"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "stage": "stage2",
+  "lang": "zh",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["none"],
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "12-14" },
+  "image_notes": { "value": "不需要配图。内容以表格、数据流程图、状态转移示意、问题清单和时间表为主，全部用可编辑的原生图形绘制。" },
+  "proactive_speaker_notes": { "value": true },
+  "proactive_custom_animations": { "value": false },
+  "proactive_narration_audio": { "value": false },
+  "refine_spec": { "value": false },
+  "design_spec_depth": { "value": "brief" },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "research-brief",
+        "name": "研究简报·结论先行",
+        "note": "每页标题就是结论，模块网格、细线分隔、关键数字放大；讲得清楚，也适合会后留存和给张所复用。",
+        "mode": "custom",
+        "mode_behavior": "以 pyramid 为基底：开头两三页交代背景、已有研究的空白和要回答的问题（情境—冲突—问题），研究设想、数据、方法和流程各页以判断句为标题、证据在下；“想请你确认的问题”和“下一步”转为逐条编号的讨论清单，便于会上逐项确认、会后对照。",
+        "visual_style": "custom",
+        "visual_style_behavior": "由 swiss-minimal 提供模块网格、直角、大留白和左对齐的严谨版式；由 data-journalism 提供细线分隔、页脚来源行、放大的关键数字和紧凑表格；一条深蓝竖向色带划分章节，琥珀色只标注卡点与待确认项，整体平面无阴影。",
+        "icons": "tabler-outline",
+        "color": { "name": "规划蓝 + 琥珀", "palette": {
+          "background": "#FFFFFF", "secondary_bg": "#F3F5F8",
+          "primary": "#1B3A5C", "accent": "#E3A21A",
+          "secondary_accent": "#3E7CB1", "body_text": "#1E2633"
+        } },
+        "typography": {
+          "name": "微软雅黑统一",
+          "heading": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "网格几何示意",
+          "rendering": "custom",
+          "visual": "只用直角色块、单一线宽的细线和圆点构成的抽象几何",
+          "mood": "冷静克制，像咨询报告里的版式插页",
+          "behavior": "以 minimalist-swiss 为基底：单一线宽、无阴影无纹理，主色占一块网格区域，强调色只作一条细线或一个点，大面积留白；颜色继承本稿配色。"
+        }
+      },
+      {
+        "id": "data-blueprint",
+        "name": "数据流程·工程蓝图",
+        "note": "深色图纸底配细线框图，把数据表、识别规则、四步 SQL 和状态转移画成可追踪的流程，突出技术对接。",
+        "mode": "custom",
+        "mode_behavior": "以 instructional 为基底：先用一页总览“数据→识别→状态表→汇总→论文”的流水线，再按数据表、识别规则、00—03 SQL、合规设计逐步展开，每页一个步骤并标出在总流程中的位置；待确认问题挂在对应环节旁，最后汇总成分工与下一步。",
+        "visual_style": "custom",
+        "visual_style_behavior": "以 blueprint 为基底：深色图纸底加淡网格，所有框线和连接线用同一种浅蓝细线，表名、字段和 SQL 步骤编号用等宽字体标注，引线和尺寸线承担注释；橙色只出现在卡点（uid 能否跨期追踪、新版 APP 名录）上。",
+        "icons": "tabler-outline",
+        "color": { "name": "图纸深蓝 + 警示橙", "palette": {
+          "background": "#0F2236", "secondary_bg": "#16304A",
+          "primary": "#7FB7E6", "accent": "#F2994A",
+          "secondary_accent": "#4FC3A1", "body_text": "#E8EEF5"
+        } },
+        "typography": {
+          "name": "微软雅黑 + Consolas 代码标注",
+          "heading": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Consolas", "css": "sans-serif" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "系统原理线图",
+          "rendering": "custom",
+          "visual": "单线宽的系统框图、直角连接线和锚点",
+          "mood": "像工程师挂在墙上的设计图纸，精确而克制",
+          "behavior": "以 blueprint 渲染为基底：1—1.5 px 均匀线条，无阴影无纹理，可选 6% 透明度网格；主色画线，强调色标出关键路径；颜色继承本稿配色。"
+        }
+      },
+      {
+        "id": "meeting-pack",
+        "name": "会议材料·编辑出版",
+        "note": "像一份研究简报：宋体标题配雅黑正文，细线分栏，大号序号作章节锚点，问题清单像访谈提纲，便于会后转发。",
+        "mode": "custom",
+        "mode_behavior": "以 briefing 为基底：按背景、研究设想、已有研究、数据与方法、分析流程、预期成果、待确认问题、合作与下一步分节，标题用主题名，各节等权、信息完整便于查阅；只在研究设想页给出一句核心判断。",
+        "visual_style": "custom",
+        "visual_style_behavior": "以 editorial 为基底：米白纸面、细线分栏、栏目眉题和大号序号锚定章节，引语框突出已有研究的关键发现；以墨色文字为主，陶土红只用于眉题、序号和关键数字，平面无阴影。",
+        "icons": "phosphor-duotone",
+        "color": { "name": "纸面墨色 + 陶土红", "palette": {
+          "background": "#FBF8F3", "secondary_bg": "#F1ECE3",
+          "primary": "#233746", "accent": "#B5523B",
+          "secondary_accent": "#4A6670", "body_text": "#2B2B2B"
+        } },
+        "typography": {
+          "name": "宋体标题 + 微软雅黑正文",
+          "heading": { "primary": "SimSun", "english": "Georgia", "css": "serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "编辑式信息插图",
+          "rendering": "custom",
+          "visual": "大块色面与细分隔线组成的杂志式信息插图",
+          "mood": "像财经杂志的解释性插页，克制而有层次",
+          "behavior": "以 editorial 渲染为基底：一个主导色块、细线分隔、可选 8% 纸纹，不加阴影；颜色继承本稿配色。"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">02 · 数据与方法</text>
+    <text font-size="40" fill="#1B3A5C" x="64" y="118">以工作端 APP 时长为主、停留行为为辅，</text><text font-size="40" fill="#1B3A5C" x="64" y="168">判定每期每个人的状态</text></g>
+
+  <g id="rule-steps" data-pptx-bounds="64 200 640 300">
+    <line x1="86" y1="236" x2="86" y2="452" stroke="#D5DBE3" stroke-width="2" />
+    <g id="step-1">
+      <circle cx="86" cy="236" r="20" fill="#1B3A5C" />
+      <text x="86" y="243" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="124" y="244" font-size="24" font-weight="bold" fill="#1B3A5C">看平台 APP 时长</text>
+      <text font-size="20" fill="#1E2633" x="124" y="278"><tspan>某类工作端 APP 当月使用 <tspan font-weight="bold" fill="#1B3A5C">≥ 50 小时</tspan> → 平台从业者；</tspan></text><text font-size="20" fill="#1E2633" x="124" y="306">几类都满足取时长最多的一类，记为兼做；</text><text font-size="20" fill="#1E2633" x="124" y="334">敏感性：20、100 小时</text></g>
+    <g id="step-2">
+      <circle cx="86" cy="372" r="20" fill="#1B3A5C" />
+      <text x="86" y="379" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="124" y="380" font-size="24" font-weight="bold" fill="#1B3A5C">看固定工作地</text>
+      <text x="124" y="414" font-size="20" fill="#1E2633">有工作地且工作日白天停留 <tspan font-weight="bold" fill="#1B3A5C">≥ 40 小时/月</tspan> → 固定工作</text>
+    </g>
+    <g id="step-3">
+      <circle cx="86" cy="452" r="20" fill="#1B3A5C" />
+      <text x="86" y="459" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="124" y="460" font-size="24" font-weight="bold" fill="#1B3A5C">其余 → 无固定工作</text>
+    </g>
+  </g>
+
+  <g id="state-panel" data-pptx-bounds="740 200 476 300">
+    <rect x="740" y="200" width="476" height="296" fill="#F3F5F8" />
+    <text x="768" y="238" font-size="24" font-weight="bold" fill="#1B3A5C">每期每人的状态</text>
+    <g id="state-chips" font-size="20">
+      <rect x="768" y="260" width="204" height="40" fill="#FFFFFF" />
+      <rect x="768" y="260" width="4" height="40" fill="#1B3A5C" />
+      <text x="784" y="287" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">G1</tspan> 外卖即配</text>
+      <rect x="768" y="312" width="204" height="40" fill="#FFFFFF" />
+      <rect x="768" y="312" width="4" height="40" fill="#1B3A5C" />
+      <text x="784" y="339" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">G2</tspan> 网约车</text>
+      <rect x="768" y="364" width="204" height="40" fill="#FFFFFF" />
+      <rect x="768" y="364" width="4" height="40" fill="#1B3A5C" />
+      <text x="784" y="391" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">G3</tspan> 快递</text>
+      <rect x="768" y="416" width="204" height="40" fill="#FFFFFF" />
+      <rect x="768" y="416" width="4" height="40" fill="#1B3A5C" />
+      <text x="784" y="443" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">G4</tspan> 货运代驾</text>
+      <rect x="988" y="260" width="204" height="40" fill="#FFFFFF" />
+      <rect x="988" y="260" width="4" height="40" fill="#5B6675" />
+      <text x="1004" y="287" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#5B6675">F</tspan> 固定工作</text>
+      <rect x="988" y="312" width="204" height="40" fill="#FFFFFF" />
+      <rect x="988" y="312" width="4" height="40" fill="#5B6675" />
+      <text x="1004" y="339" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#5B6675">N</tspan> 无固定工作</text>
+      <rect x="988" y="364" width="204" height="40" fill="#FFFFFF" />
+      <rect x="988" y="364" width="4" height="40" fill="#5B6675" />
+      <text x="1004" y="391" fill="#1E2633"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#5B6675">X</tspan> 本期不在库</text>
+    </g>
+    <text x="988" y="444" font-size="18" fill="#5B6675">G = 平台从业者</text>
+  </g>
+
+  <g id="side-rules" data-pptx-bounds="64 522 1152 80">
+    
+  <g transform="translate(64, 530)" fill="none" stroke="#3E7CB1" stroke-width="2">
+    <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+  </g>
+    <text x="100" y="550" font-size="18" fill="#1E2633"><tspan font-weight="bold" fill="#1B3A5C">求职渠道：</tspan>蓝领（58 找工作、斗米）· 综合（BOSS 直聘、智联、前程无忧）· 白领（拉勾、猎聘、脉脉、LinkedIn）</text>
+    
+  <g transform="translate(64, 566)" fill="none" stroke="#3E7CB1" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="100" y="586" font-size="18" fill="#1E2633"><tspan font-weight="bold" fill="#1B3A5C">行为校验：</tspan>重度工作端 APP 用户应停留点多、无固定工作地、出行时长长</text>
+  </g>
+
+  <g id="ask-patent" data-pptx-bounds="64 612 1152 56">
+    <rect x="64" y="614" width="1152" height="52" fill="#FCF3DF" />
+    <rect x="64" y="614" width="6" height="52" fill="#E3A21A" />
+    
+  <g transform="translate(88, 626) scale(1.16667)" fill="none" stroke="#E3A21A" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 16v.01" />
+    <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+  </g>
+    <text x="128" y="648" font-size="22" fill="#1E2633"><tspan font-weight="bold">想请教：</tspan>你们专利里用“流量 + 时长”识别平台从业者的思路和阈值经验</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">阈值为初稿，待数据摸底（时长分布、行为校验）后定稿</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">08 / 13</text>
+  </g>
+</svg>

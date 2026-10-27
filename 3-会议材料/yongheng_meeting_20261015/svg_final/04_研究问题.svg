@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">01 · 背景与研究问题</text>
+    <text font-size="40" fill="#1B3A5C" x="64" y="118">“铁人三项”是灵活就业的主力方向，</text><text font-size="40" fill="#1B3A5C" x="64" y="168">但没人知道他们从哪来、往哪去</text></g>
+
+  <g id="subjects" data-pptx-bounds="64 196 1152 88">
+    <rect x="64" y="200" width="1152" height="80" fill="#F3F5F8" />
+    <g id="subject-food">
+      
+  <g transform="translate(88, 220) scale(1.66667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M2 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M16 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M7.5 14h5l4 -4h-10.5m1.5 4l4 -4" />
+    <path d="M13 6h2l1.5 3l2 4" />
+  </g>
+      <text x="144" y="238" font-size="24" font-weight="bold" fill="#1E2633">外卖骑手</text>
+      <text x="144" y="264" font-size="18" fill="#5B6675">含即时配送、跑腿</text>
+    </g>
+    <g id="subject-express">
+      
+  <g transform="translate(376, 220) scale(1.66667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+    <path d="M12 12l8 -4.5" />
+    <path d="M12 12l0 9" />
+    <path d="M12 12l-8 -4.5" />
+    <path d="M16 5.25l-8 4.5" />
+  </g>
+      <text x="432" y="249" font-size="24" font-weight="bold" fill="#1E2633">快递员</text>
+    </g>
+    <g id="subject-ride">
+      
+  <g transform="translate(616, 220) scale(1.66667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+  </g>
+      <text x="672" y="249" font-size="24" font-weight="bold" fill="#1E2633">网约车司机</text>
+    </g>
+    <g id="subject-extra" fill="#5B6675">
+      
+  <g transform="translate(904, 224) scale(1.33333)" fill="none" stroke="#000000" stroke-width="2">
+    <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+    <path d="M3 9l4 0" />
+  </g>
+      <text x="948" y="248" font-size="20">补充类别：货运、代驾</text>
+    </g>
+  </g>
+
+  <g id="questions" data-pptx-bounds="64 304 1152 360">
+    <g id="q1">
+      <circle cx="84" cy="334" r="18" fill="#1B3A5C" />
+      <text x="84" y="341" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="116" y="342" font-size="24" font-weight="bold" fill="#1B3A5C">有多少</text>
+      <text font-size="20" fill="#1E2633" x="116" y="374">人数及 2019—2025 年的变化；</text><text font-size="20" fill="#1E2633" x="116" y="402">兼做两类以上的有多少</text></g>
+    <g id="q2">
+      <circle cx="84" cy="452" r="18" fill="#1B3A5C" />
+      <text x="84" y="459" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="116" y="460" font-size="24" font-weight="bold" fill="#1B3A5C">是谁</text>
+      <text x="116" y="492" font-size="20" fill="#1E2633">年龄、性别、户籍来源、收入档，住在哪</text>
+    </g>
+    <g id="q3">
+      <circle cx="84" cy="570" r="18" fill="#1B3A5C" />
+      <text x="84" y="577" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="116" y="578" font-size="24" font-weight="bold" fill="#1B3A5C">边跑边找</text>
+      <text font-size="20" fill="#1E2633" x="116" y="610">有多少人边跑单边找工作；</text><text font-size="20" fill="#1E2633" x="116" y="638">用蓝领、综合还是白领求职渠道</text></g>
+    <g id="q4">
+      <circle cx="672" cy="334" r="18" fill="#1B3A5C" />
+      <text x="672" y="341" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+      <text x="704" y="342" font-size="24" font-weight="bold" fill="#1B3A5C">从哪来</text>
+      <text font-size="20" fill="#1E2633" x="704" y="374">进入前在工厂、写字楼、商业区上班，</text><text font-size="20" fill="#1E2633" x="704" y="402">没有固定工作，还是刚来北京</text></g>
+    <g id="q5">
+      <circle cx="672" cy="452" r="18" fill="#1B3A5C" />
+      <text x="672" y="459" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+      <text x="704" y="460" font-size="24" font-weight="bold" fill="#1B3A5C">干多久</text>
+      <text x="704" y="492" font-size="20" fill="#1E2633">能连续几个季度保持平台工作</text>
+    </g>
+    <g id="q6">
+      <circle cx="672" cy="570" r="18" fill="#1B3A5C" />
+      <text x="672" y="577" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+      <text x="704" y="578" font-size="24" font-weight="bold" fill="#1B3A5C">往哪去</text>
+      <text font-size="20" fill="#1E2633" x="704" y="610">回到固定岗位、转做别的平台、</text><text font-size="20" fill="#1E2633" x="704" y="638">无固定工作，还是离开北京</text></g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">“铁人三项”：网上对外卖、快递、网约车三类零工的通称</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">04 / 13</text>
+  </g>
+</svg>

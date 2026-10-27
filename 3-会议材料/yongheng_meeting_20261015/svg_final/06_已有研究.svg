@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">01 · 背景与研究问题</text>
+    <text font-size="40" fill="#1B3A5C" x="64" y="118">国内靠问卷、国外靠税务数据，</text><text font-size="40" fill="#1B3A5C" x="64" y="168">都看不到同一个人的完整轨迹</text></g>
+
+  <g id="domestic" data-pptx-bounds="64 200 560 330">
+    <text x="64" y="230" font-size="24" font-weight="bold" fill="#1B3A5C">国内<tspan font-weight="normal" fill="#5B6675" font-size="20">　问卷、回忆式、单一平台</tspan></text>
+    <line x1="64" y1="246" x2="608" y2="246" stroke="#1B3A5C" stroke-width="2" />
+    <g id="dom-meituan">
+      <text x="64" y="304" font-size="48" font-weight="bold" fill="#1B3A5C">24.8%</text>
+      <text font-size="20" fill="#1E2633" x="232" y="290">美团研究院：当骑手前</text><text font-size="20" fill="#1E2633" x="232" y="318">在工厂打工</text></g>
+    <line x1="64" y1="336" x2="608" y2="336" stroke="#D5DBE3" stroke-width="1" />
+    <g id="dom-sunping">
+      <text x="64" y="394" font-size="48" font-weight="bold" fill="#1B3A5C">12.9%</text>
+      <text font-size="20" fill="#1E2633" x="232" y="380">孙萍《过渡劳动》：北京外卖员愿意</text><text font-size="20" fill="#1E2633" x="232" y="408">一直送；超八成打算两年内换工作</text></g>
+    <line x1="64" y1="426" x2="608" y2="426" stroke="#D5DBE3" stroke-width="1" />
+    <g id="dom-nankai">
+      <text x="64" y="484" font-size="48" font-weight="bold" fill="#1B3A5C">&lt;12<tspan font-size="24">个月</tspan></text>
+      <text font-size="20" fill="#1E2633" x="232" y="470">南开大学 4.1 万份调查：</text><text font-size="20" fill="#1E2633" x="232" y="498">平均从业时间</text></g>
+  </g>
+
+  <g id="column-divider" data-pptx-bounds="634 206 12 314">
+    <line x1="640" y1="210" x2="640" y2="516" stroke="#D5DBE3" stroke-width="1" />
+  </g>
+
+  <g id="overseas" data-pptx-bounds="672 200 544 330">
+    <text x="672" y="230" font-size="24" font-weight="bold" fill="#1B3A5C">国外<tspan font-weight="normal" fill="#5B6675" font-size="20">　税务、财务数据</tspan></text>
+    <line x1="672" y1="246" x2="1216" y2="246" stroke="#1B3A5C" stroke-width="2" />
+    <g id="os-koustas" font-size="20">
+      <text x="672" y="290" font-weight="bold" fill="#1B3A5C">Koustas 2019</text>
+      <text x="672" y="320" fill="#1E2633">进入网约车前，收入和资产先下滑</text>
+    </g>
+    <line x1="672" y1="336" x2="1216" y2="336" stroke="#D5DBE3" stroke-width="1" />
+    <g id="os-fos" font-size="20">
+      <text x="672" y="380" font-weight="bold" fill="#1B3A5C">Fos 等 2019</text>
+      <text x="672" y="410" fill="#1E2633">Uber 进城后，被裁员工更少依赖失业金</text>
+    </g>
+    <line x1="672" y1="426" x2="1216" y2="426" stroke="#D5DBE3" stroke-width="1" />
+    <g id="os-huang" font-size="20">
+      <text x="672" y="470" font-weight="bold" fill="#1B3A5C">Huang 等 2020</text>
+      <text x="672" y="500" fill="#1E2633">失业率上升，线上零工参与增加</text>
+    </g>
+  </g>
+
+  <g id="gap" data-pptx-bounds="64 540 1152 128">
+    <rect x="64" y="544" width="1152" height="120" fill="#1B3A5C" />
+    <text x="96" y="590" font-size="24" fill="#FFFFFF"><tspan font-weight="bold" fill="#E3A21A">共同短板：</tspan>看不到退出后去了哪里，看不到求职和跨平台</text>
+    <text x="96" y="636" font-size="18" fill="#D5DBE3">最接近的：Qiao 等 2023 用手机轨迹识别成都网约车司机居住地；波兰组用 APP 测平台从业者规模（预印本）</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">来源：美团研究院（2021）；孙萍《过渡劳动》（2024）；南开大学（2025）；Koustas（2019）；Fos 等（2019）；Huang 等（2020）</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">06 / 13</text>
+  </g>
+</svg>

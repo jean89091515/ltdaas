@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">02 · 数据与方法</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">旧名录已找到主要工作端和求职 APP，<tspan x="64" dy="50">新平台和快递作业端还要确认</tspan></text>
+  </g>
+
+  <g id="found" data-pptx-bounds="64 198 732 440">
+    <text x="64" y="226" font-size="20" fill="#5B6675"><tspan font-weight="bold" fill="#1B3A5C">已找到</tspan>　旧名录约 2018—2020 年（里面还有摩拜、虾米音乐）</text>
+    <line x1="64" y1="244" x2="796" y2="244" stroke="#1B3A5C" stroke-width="2" />
+    <g id="found-rider">
+      <use data-icon="tabler-outline/motorbike" x="64" y="262" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+      <text x="104" y="284" font-size="22" font-weight="bold" fill="#1B3A5C">骑手端</text>
+      <text x="208" y="284" font-size="20" fill="#1E2633">美团骑手、达达骑士版、顺丰骑士、闪送员、<tspan x="208" dy="28">点我达骑手、UU 跑腿跑男端</tspan></text>
+    </g>
+    <line x1="64" y1="330" x2="796" y2="330" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-driver">
+      <use data-icon="tabler-outline/car" x="64" y="346" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+      <text x="104" y="368" font-size="22" font-weight="bold" fill="#1B3A5C">司机端</text>
+      <text x="208" y="368" font-size="20" fill="#1E2633">滴滴车主、美团打车司机端、首约司机、曹操司机、<tspan x="208" dy="28">花小猪司机端、嘀嗒出租司机</tspan></text>
+    </g>
+    <line x1="64" y1="414" x2="796" y2="414" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-freight">
+      <use data-icon="tabler-outline/truck-delivery" x="64" y="430" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+      <text x="104" y="452" font-size="22" font-weight="bold" fill="#1B3A5C">货运</text>
+      <text x="208" y="452" font-size="20" fill="#1E2633">货拉拉司机版、快狗打车车主、运满满司机</text>
+    </g>
+    <line x1="64" y1="472" x2="796" y2="472" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-job">
+      <use data-icon="tabler-outline/briefcase" x="64" y="488" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+      <text x="104" y="510" font-size="22" font-weight="bold" fill="#1B3A5C">求职</text>
+      <text x="208" y="510" font-size="20" fill="#1E2633">BOSS 直聘、智联招聘、前程无忧、58 找工作、斗米、<tspan x="208" dy="28">拉勾、猎聘、脉脉、LinkedIn</tspan></text>
+    </g>
+    <line x1="64" y1="556" x2="796" y2="556" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-parttime">
+      <use data-icon="tabler-outline/clock" x="64" y="572" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+      <text x="104" y="594" font-size="22" font-weight="bold" fill="#1B3A5C">兼职</text>
+      <text x="208" y="594" font-size="20" fill="#1E2633">兼职猫、口袋兼职、青团社</text>
+    </g>
+  </g>
+
+  <g id="pending" data-pptx-bounds="832 198 384 440">
+    <rect x="832" y="204" width="384" height="428" fill="#FCF3DF" />
+    <rect x="832" y="204" width="384" height="6" fill="#E3A21A" />
+    <use data-icon="tabler-outline/alert-triangle" x="860" y="234" width="32" height="32" fill="#E3A21A" stroke-width="2" />
+    <text x="904" y="259" font-size="24" font-weight="bold" fill="#1E2633">待确认</text>
+    <g id="pending-1" font-size="20">
+      <text x="860" y="310" font-weight="bold" fill="#1B3A5C">新平台</text>
+      <text x="860" y="340" fill="#1E2633">京东秒送骑手、美团众包、<tspan x="860" dy="28">蜂鸟众包</tspan></text>
+    </g>
+    <g id="pending-2" font-size="20">
+      <text x="860" y="420" font-weight="bold" fill="#1B3A5C">快递公司作业 APP</text>
+      <text x="860" y="450" fill="#1E2633">中通、圆通、京东小哥等</text>
+    </g>
+    <g id="pending-3" font-size="20">
+      <text x="860" y="502" font-weight="bold" fill="#1B3A5C">专业接单平台</text>
+      <text x="860" y="532" fill="#1E2633">猪八戒、程序员客栈</text>
+    </g>
+    <line x1="860" y1="562" x2="1188" y2="562" stroke="#E3A21A" stroke-width="1" />
+    <text x="860" y="600" font-size="22" font-weight="bold" fill="#1B3A5C">→ 需要新版 APP 名录</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">来源：联通 APP 使用名录（旧版汇总表）</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">09 / 13</text>
+  </g>
+</svg>

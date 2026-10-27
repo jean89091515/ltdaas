@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 146" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">02 · 数据与方法</text>
+    <text font-size="40" fill="#1B3A5C" x="64" y="118">旧名录已找到主要工作端和求职 APP，</text><text font-size="40" fill="#1B3A5C" x="64" y="168">新平台和快递作业端还要确认</text></g>
+
+  <g id="found" data-pptx-bounds="64 198 732 440">
+    <text x="64" y="226" font-size="20" fill="#5B6675"><tspan font-weight="bold" fill="#1B3A5C">已找到</tspan>　旧名录约 2018—2020 年（里面还有摩拜、虾米音乐）</text>
+    <line x1="64" y1="244" x2="796" y2="244" stroke="#1B3A5C" stroke-width="2" />
+    <g id="found-rider">
+      
+  <g transform="translate(64, 262) scale(1.16667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M2 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M16 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M7.5 14h5l4 -4h-10.5m1.5 4l4 -4" />
+    <path d="M13 6h2l1.5 3l2 4" />
+  </g>
+      <text x="104" y="284" font-size="22" font-weight="bold" fill="#1B3A5C">骑手端</text>
+      <text font-size="20" fill="#1E2633" x="208" y="284">美团骑手、达达骑士版、顺丰骑士、闪送员、</text><text font-size="20" fill="#1E2633" x="208" y="312">点我达骑手、UU 跑腿跑男端</text></g>
+    <line x1="64" y1="330" x2="796" y2="330" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-driver">
+      
+  <g transform="translate(64, 346) scale(1.16667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+  </g>
+      <text x="104" y="368" font-size="22" font-weight="bold" fill="#1B3A5C">司机端</text>
+      <text font-size="20" fill="#1E2633" x="208" y="368">滴滴车主、美团打车司机端、首约司机、曹操司机、</text><text font-size="20" fill="#1E2633" x="208" y="396">花小猪司机端、嘀嗒出租司机</text></g>
+    <line x1="64" y1="414" x2="796" y2="414" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-freight">
+      
+  <g transform="translate(64, 430) scale(1.16667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+    <path d="M3 9l4 0" />
+  </g>
+      <text x="104" y="452" font-size="22" font-weight="bold" fill="#1B3A5C">货运</text>
+      <text x="208" y="452" font-size="20" fill="#1E2633">货拉拉司机版、快狗打车车主、运满满司机</text>
+    </g>
+    <line x1="64" y1="472" x2="796" y2="472" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-job">
+      
+  <g transform="translate(64, 488) scale(1.16667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" />
+    <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+    <path d="M12 12l0 .01" />
+    <path d="M3 13a20 20 0 0 0 18 0" />
+  </g>
+      <text x="104" y="510" font-size="22" font-weight="bold" fill="#1B3A5C">求职</text>
+      <text font-size="20" fill="#1E2633" x="208" y="510">BOSS 直聘、智联招聘、前程无忧、58 找工作、斗米、</text><text font-size="20" fill="#1E2633" x="208" y="538">拉勾、猎聘、脉脉、LinkedIn</text></g>
+    <line x1="64" y1="556" x2="796" y2="556" stroke="#D5DBE3" stroke-width="1" />
+    <g id="found-parttime">
+      
+  <g transform="translate(64, 572) scale(1.16667)" fill="none" stroke="#1B3A5C" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 7v5l3 3" />
+  </g>
+      <text x="104" y="594" font-size="22" font-weight="bold" fill="#1B3A5C">兼职</text>
+      <text x="208" y="594" font-size="20" fill="#1E2633">兼职猫、口袋兼职、青团社</text>
+    </g>
+  </g>
+
+  <g id="pending" data-pptx-bounds="832 198 384 440">
+    <rect x="832" y="204" width="384" height="428" fill="#FCF3DF" />
+    <rect x="832" y="204" width="384" height="6" fill="#E3A21A" />
+    
+  <g transform="translate(860, 234) scale(1.33333)" fill="none" stroke="#E3A21A" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="904" y="259" font-size="24" font-weight="bold" fill="#1E2633">待确认</text>
+    <g id="pending-1" font-size="20">
+      <text x="860" y="310" font-weight="bold" fill="#1B3A5C">新平台</text>
+      <text fill="#1E2633" x="860" y="340">京东秒送骑手、美团众包、</text><text fill="#1E2633" x="860" y="368">蜂鸟众包</text></g>
+    <g id="pending-2" font-size="20">
+      <text x="860" y="420" font-weight="bold" fill="#1B3A5C">快递公司作业 APP</text>
+      <text x="860" y="450" fill="#1E2633">中通、圆通、京东小哥等</text>
+    </g>
+    <g id="pending-3" font-size="20">
+      <text x="860" y="502" font-weight="bold" fill="#1B3A5C">专业接单平台</text>
+      <text x="860" y="532" fill="#1E2633">猪八戒、程序员客栈</text>
+    </g>
+    <line x1="860" y1="562" x2="1188" y2="562" stroke="#E3A21A" stroke-width="1" />
+    <text x="860" y="600" font-size="22" font-weight="bold" fill="#1B3A5C">→ 需要新版 APP 名录</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">来源：联通 APP 使用名录（旧版汇总表）</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">09 / 13</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 96" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">03 · 成果与对接</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">十个问题里，新版 APP 名录和 uid 能否跨期追踪最关键</text>
+  </g>
+
+  <g id="q01" data-pptx-bounds="64 172 556 92">
+    <rect x="64" y="172" width="556" height="92" fill="#FCF3DF" />
+    <circle cx="92" cy="202" r="18" fill="#E3A21A" />
+    <text x="92" y="209" font-size="20" font-weight="bold" fill="#1E2633" text-anchor="middle">1</text>
+    <text x="124" y="209" font-size="20" fill="#1E2633"><tspan x="124" dy="0"><tspan font-weight="bold" fill="#1B3A5C">新版 APP 名录与上网标签码表</tspan></tspan><tspan x="124" dy="28">近两年北京的 APP 名称、标签和用户数（≥15 人）</tspan></text>
+    <text x="604" y="254" font-size="18" font-weight="bold" fill="#1B3A5C" text-anchor="end">关键</text>
+  </g>
+  <g id="q02" data-pptx-bounds="64 270 556 92">
+    <circle cx="92" cy="300" r="18" fill="#1B3A5C" />
+    <text x="92" y="307" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="124" y="300" font-size="20" fill="#1E2633"><tspan x="124" dy="0"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">user_app</tspan> 历年 3、6、9、12 月是否都有？</tspan><tspan x="124" dy="28"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">ltime</tspan>、<tspan font-family="Consolas, 'Microsoft YaHei', monospace">lflux</tspan> 口径有没有变过？</tspan><tspan x="124" dy="28">是否只统计蜂窝流量（Wi-Fi 看不到）？</tspan></text>
+  </g>
+  <g id="q03" data-pptx-bounds="64 368 556 92">
+    <rect x="64" y="368" width="556" height="92" fill="#FCF3DF" />
+    <circle cx="92" cy="398" r="18" fill="#E3A21A" />
+    <text x="92" y="405" font-size="20" font-weight="bold" fill="#1E2633" text-anchor="middle">3</text>
+    <text x="124" y="405" font-size="20" fill="#1E2633"><tspan x="124" dy="0"><tspan font-weight="bold" fill="#1B3A5C">uid 能否跨月、跨年对上？</tspan></tspan><tspan x="124" dy="28">决定能否做季度追踪</tspan></text>
+    <text x="604" y="450" font-size="18" font-weight="bold" fill="#1B3A5C" text-anchor="end">关键</text>
+  </g>
+  <g id="q04" data-pptx-bounds="64 466 556 92">
+    <circle cx="92" cy="496" r="18" fill="#1B3A5C" />
+    <text x="92" y="503" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="124" y="503" font-size="20" fill="#1E2633"><tspan x="124" dy="0"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">is_core</tspan>、<tspan font-family="Consolas, 'Microsoft YaHei', monospace">weight</tspan> 的定义？</tspan><tspan x="124" dy="28">一人多卡怎么处理？</tspan></text>
+  </g>
+  <g id="q05" data-pptx-bounds="64 564 556 92">
+    <circle cx="92" cy="594" r="18" fill="#1B3A5C" />
+    <text x="92" y="601" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+    <text x="124" y="594" font-size="20" fill="#1E2633">整天流动的骑手、司机会不会被判出<tspan x="124" dy="28"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">ptype=2</tspan> 工作地？30 分钟驻留规则的影响？</tspan><tspan x="124" dy="28"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">ptype=3</tspan> 是什么？</tspan></text>
+  </g>
+  <g id="q06" data-pptx-bounds="660 172 556 92">
+    <circle cx="688" cy="202" r="18" fill="#1B3A5C" />
+    <text x="688" y="209" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+    <text x="720" y="209" font-size="20" fill="#1E2633">快递公司作业 APP、京东秒送、<tspan x="720" dy="28">美团众包能否识别？</tspan></text>
+  </g>
+  <g id="q07" data-pptx-bounds="660 270 556 92">
+    <circle cx="688" cy="300" r="18" fill="#1B3A5C" />
+    <text x="688" y="307" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7</text>
+    <text x="720" y="307" font-size="20" fill="#1E2633"><tspan x="720" dy="0">能否上传自己的对照表（<tspan font-family="Consolas, 'Microsoft YaHei', monospace">fnid</tspan> → 街道、环路、</tspan><tspan x="720" dy="28">用地类型、城中村），像以前的 <tspan font-family="Consolas, 'Microsoft YaHei', monospace">wl_code</tspan>？</tspan></text>
+  </g>
+  <g id="q08" data-pptx-bounds="660 368 556 92">
+    <circle cx="688" cy="398" r="18" fill="#1B3A5C" />
+    <text x="688" y="405" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8</text>
+    <text x="720" y="405" font-size="20" fill="#1E2633"><tspan x="720" dy="0">系统是否支持 <tspan font-family="Consolas, 'Microsoft YaHei', monospace">coalesce</tspan>、窗口函数？</tspan><tspan x="720" dy="28">单次运行有没有时长或资源限制？</tspan></text>
+  </g>
+  <g id="q09" data-pptx-bounds="660 466 556 92">
+    <circle cx="688" cy="496" r="18" fill="#1B3A5C" />
+    <text x="688" y="503" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">9</text>
+    <text x="720" y="503" font-size="20" fill="#1E2633">用聚合结果发表论文需要什么流程？<tspan x="720" dy="28">是否要公司书面同意？</tspan></text>
+  </g>
+  <g id="q10" data-pptx-bounds="660 564 556 92">
+    <circle cx="688" cy="594" r="18" fill="#1B3A5C" />
+    <text x="688" y="601" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">10</text>
+    <text x="720" y="601" font-size="20" fill="#1E2633">你们识别平台从业者的专利号和方法要点<tspan x="720" dy="28">（论文里引用）</tspan></text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">琥珀色为关键卡点：先确认第 1、3 条</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">12 / 13</text>
+  </g>
+</svg>

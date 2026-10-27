@@ -1,0 +1,67 @@
+{
+  "primary_language": "zh-CN",
+  "canvas": "ppt169",
+  "audience": "冯永恒：联通智慧足迹数据人员、北大在职博士，熟悉 DaaS 表结构、平台合规规则，公司做过用流量和时长识别平台从业者的专利；关心研究是否可行、是否合规、能否对他的博士研究有帮助",
+  "communication_intent": "先用几页讲清背景和研究设想（北京“铁人三项”从业者：边跑单边找工作的有多少、从哪来、干多久、往哪去，平台工作是跳板、缓冲垫还是陷阱）；再逐条请教数据口径和识别方法；最后对齐合作分工与下一步时间表",
+  "audience_outcome": "永恒认可研究价值并愿意一起做；会上逐条回答或认领数据问题（uid 能否跨期追踪、新版 APP 名录、蜂窝/Wi-Fi 口径、能否上传对照表、发表许可、专利方法）；约定他提供新版 APP 名录，我们本周在 DaaS 上跑数据摸底 SQL",
+  "core_message": "用联通 APP 使用加位置数据追踪同一批“铁人三项”从业者，能回答国内外都没解决的“跳板还是陷阱”问题；分析 SQL 已按平台合规规则写好并用模拟数据验证，眼下卡点是 uid 能否跨期追踪和新版 APP 名录",
+  "delivery_context": "主要为线上会议共享屏幕，王良主讲，两人边看边讨论，约 30—45 分钟；次要为会后发给永恒作为对接备忘",
+  "artifact_afterlife": "会后作为合作对接备忘和问题清单留存；部分页面后续可复用于向张所汇报",
+  "content_divergence": "",
+  "delivery_purpose": "balanced",
+  "page_count": "12-14",
+  "mode": "custom",
+  "mode_behavior": "以 pyramid 为基底：开头两三页交代背景、已有研究的空白和要回答的问题（情境—冲突—问题），研究设想、数据、方法和流程各页以判断句为标题、证据在下；“想请你确认的问题”和“下一步”转为逐条编号的讨论清单，便于会上逐项确认、会后对照。",
+  "visual_style": "custom",
+  "visual_style_behavior": "由 swiss-minimal 提供模块网格、直角、大留白和左对齐的严谨版式；由 data-journalism 提供细线分隔、页脚来源行、放大的关键数字和紧凑表格；一条深蓝竖向色带划分章节，琥珀色只标注卡点与待确认项，整体平面无阴影。",
+  "color": {
+    "name": "规划蓝 + 琥珀",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F3F5F8",
+      "primary": "#1B3A5C",
+      "accent": "#E3A21A",
+      "secondary_accent": "#3E7CB1",
+      "body_text": "#1E2633"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "微软雅黑统一",
+    "heading": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body_size": 24,
+    "sizes": {
+      "title": 42,
+      "subtitle": 32,
+      "annotation": 18
+    },
+    "note": "",
+    "body_size_unit": "px"
+  },
+  "image_usage": [
+    "none"
+  ],
+  "image_notes": "不需要配图。内容以表格、数据流程图、状态转移示意、问题清单和时间表为主，全部用可编辑的原生图形绘制。",
+  "proactive_speaker_notes": true,
+  "proactive_custom_animations": false,
+  "proactive_narration_audio": false,
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "design_spec_depth": "brief",
+  "stage": "final",
+  "status": "confirmed",
+  "confirmed_at": "2026-10-15T00:30:52"
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="toc" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 96" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">00 · 会议安排</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">今天想达成三件事：认可思路、厘清数据口径、约定下一步</text>
+  </g>
+
+  <g id="agenda" data-pptx-bounds="64 176 640 440">
+    <line x1="88" y1="232" x2="88" y2="544" stroke="#D5DBE3" stroke-width="2" />
+    <g id="agenda-1">
+      <circle cx="88" cy="232" r="24" fill="#1B3A5C" />
+      <text x="88" y="241" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="136" y="242" font-size="30" font-weight="bold" fill="#1E2633">背景与研究问题</text>
+      <text x="680" y="242" font-size="20" fill="#5B6675" text-anchor="end">约 8 分钟</text>
+    </g>
+    <g id="agenda-2">
+      <circle cx="88" cy="336" r="24" fill="#1B3A5C" />
+      <text x="88" y="345" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="136" y="346" font-size="30" font-weight="bold" fill="#1E2633">数据与识别方法</text>
+      <text x="680" y="346" font-size="20" fill="#5B6675" text-anchor="end">约 10 分钟</text>
+    </g>
+    <g id="agenda-3">
+      <circle cx="88" cy="440" r="24" fill="#E3A21A" />
+      <text x="88" y="449" font-size="24" font-weight="bold" fill="#1E2633" text-anchor="middle">3</text>
+      <text x="136" y="450" font-size="30" font-weight="bold" fill="#1E2633">想请你确认的问题</text>
+      <text x="680" y="450" font-size="20" fill="#5B6675" text-anchor="end">约 15 分钟</text>
+    </g>
+    <g id="agenda-4">
+      <circle cx="88" cy="544" r="24" fill="#1B3A5C" />
+      <text x="88" y="553" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+      <text x="136" y="554" font-size="30" font-weight="bold" fill="#1E2633">分工与下一步</text>
+      <text x="680" y="554" font-size="20" fill="#5B6675" text-anchor="end">约 7 分钟</text>
+    </g>
+  </g>
+
+  <g id="outcomes" data-pptx-bounds="760 176 456 440">
+    <rect x="760" y="184" width="456" height="424" fill="#F3F5F8" />
+    <rect x="760" y="184" width="456" height="4" fill="#1B3A5C" />
+    <text x="792" y="238" font-size="24" font-weight="bold" fill="#1B3A5C">希望会后达成</text>
+    <g id="outcome-1">
+      <use data-icon="tabler-outline/circle-check" x="792" y="282" width="32" height="32" fill="#1B3A5C" stroke-width="2" />
+      <text x="840" y="306" font-size="24" fill="#1E2633">你看研究值不值得一起做</text>
+    </g>
+    <g id="outcome-2">
+      <use data-icon="tabler-outline/circle-check" x="792" y="378" width="32" height="32" fill="#1B3A5C" stroke-width="2" />
+      <text x="840" y="402" font-size="24" fill="#1E2633">逐条回答或认领数据问题</text>
+    </g>
+    <g id="outcome-3">
+      <use data-icon="tabler-outline/circle-check" x="792" y="474" width="32" height="32" fill="#1B3A5C" stroke-width="2" />
+      <text x="840" y="498" font-size="24" fill="#1E2633">约定新版 APP 名录<tspan x="840" dy="36">与本周数据摸底</tspan></text>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">北京“铁人三项”从业者研究 · 与智慧足迹对接</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">02 / 13</text>
+  </g>
+</svg>

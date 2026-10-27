@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 96" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">03 · 成果与对接</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">建议分工：你把关口径与方法，我们做 SQL、分析与写作</text>
+  </g>
+
+  <g id="role-yongheng" data-pptx-bounds="64 160 556 208">
+    <rect x="64" y="168" width="556" height="192" fill="#F3F5F8" />
+    <rect x="64" y="168" width="556" height="4" fill="#1B3A5C" />
+    <use data-icon="tabler-outline/user-search" x="88" y="188" width="32" height="32" fill="#1B3A5C" stroke-width="2" />
+    <text x="132" y="212" font-size="26" font-weight="bold" fill="#1B3A5C">永恒</text>
+    <text x="88" y="256" font-size="22" fill="#1E2633">· 数据口径与识别方法把关（结合专利经验）<tspan x="88" dy="36">· 平台运行规则把关</tspan><tspan x="88" dy="36">· 参与论文写作，共同署名</tspan></text>
+  </g>
+
+  <g id="role-wangliang" data-pptx-bounds="660 160 556 208">
+    <rect x="660" y="168" width="556" height="192" fill="#F3F5F8" />
+    <rect x="660" y="168" width="556" height="4" fill="#1B3A5C" />
+    <use data-icon="tabler-outline/code" x="684" y="188" width="32" height="32" fill="#1B3A5C" stroke-width="2" />
+    <text x="728" y="212" font-size="26" font-weight="bold" fill="#1B3A5C">王良</text>
+    <text x="684" y="256" font-size="22" fill="#1E2633">· 研究设计、SQL、分析<tspan x="684" dy="36">· 出图、论文起草</tspan></text>
+    <text x="684" y="336" font-size="18" fill="#5B6675">节奏：每两周线上碰一次</text>
+  </g>
+
+  <g id="p13-phase-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="64 428 246 56" fill="#E3A21A" stroke="none">
+<path d="M 64 428 L 282 428 L 310 456 L 282 484 L 64 484 Z" />
+</g>
+  <g id="p13-phase-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="288 428 246 56" fill="#1B3A5C" stroke="none">
+<path d="M 288 428 L 506 428 L 534 456 L 506 484 L 288 484 L 316 456 Z" />
+</g>
+  <g id="p13-phase-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="512 428 246 56" fill="#1B3A5C" stroke="none">
+<path d="M 512 428 L 730 428 L 758 456 L 730 484 L 512 484 L 540 456 Z" />
+</g>
+  <g id="p13-phase-4" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="736 428 246 56" fill="#1B3A5C" stroke="none">
+<path d="M 736 428 L 954 428 L 982 456 L 954 484 L 736 484 L 764 456 Z" />
+</g>
+  <g id="p13-phase-5" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="960 428 246 56" fill="#1B3A5C" stroke="none">
+<path d="M 960 428 L 1178 428 L 1206 456 L 1178 484 L 960 484 L 988 456 Z" />
+</g>
+
+  <g id="timeline-labels" data-pptx-bounds="64 392 1152 96" font-size="20" font-weight="bold" text-anchor="middle">
+    <text x="64" y="410" font-size="18" fill="#3E7CB1" text-anchor="start">时间线</text>
+    <text x="180" y="463" fill="#1E2633">本周</text>
+    <text x="411" y="463" fill="#FFFFFF">10 月底</text>
+    <text x="635" y="463" fill="#FFFFFF">11 月</text>
+    <text x="859" y="463" fill="#FFFFFF">12 月—次年 1 月</text>
+    <text x="1083" y="463" fill="#FFFFFF">2027 年 2—6 月</text>
+  </g>
+
+  <g id="timeline-details" data-pptx-bounds="64 500 1152 96" font-size="20" fill="#1E2633">
+    <text x="72" y="524" font-weight="bold">你提供新版 APP 名录；<tspan x="72" dy="28">我们跑 00 数据摸底</tspan></text>
+    <text x="296" y="524">定稿 APP 清单和阈值，<tspan x="296" dy="28">确认 uid 追踪情景</tspan></text>
+    <text x="520" y="524">跑 01 状态表、<tspan x="520" dy="28">02 截面汇总，</tspan><tspan x="520" dy="28">与公开数据校验</tspan></text>
+    <text x="744" y="524">论文 1 分析写作，<tspan x="744" dy="28">2 月投稿</tspan></text>
+    <text x="968" y="524">03 转移汇总与论文 2，<tspan x="968" dy="28">7 月投稿</tspan></text>
+  </g>
+
+  <g id="takeaway" data-pptx-bounds="64 608 1152 60">
+    <rect x="64" y="612" width="1152" height="52" fill="#FCF3DF" />
+    <rect x="64" y="612" width="6" height="52" fill="#E3A21A" />
+    <use data-icon="tabler-outline/flag" x="88" y="624" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+    <text x="128" y="646" font-size="22" fill="#1E2633"><tspan font-weight="bold" fill="#1B3A5C">本周两件事：</tspan>你提供新版 APP 名录；我们在 DaaS 上跑 00 数据摸底</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">北京“铁人三项”从业者研究 · 与智慧足迹对接</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">13 / 13</text>
+  </g>
+</svg>

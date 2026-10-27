@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="'Microsoft YaHei', Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="band" data-pptx-role="decoration" x="0" y="0" width="12" height="720" fill="#1B3A5C" />
+
+  <g id="header" data-pptx-bounds="64 44 1152 96" font-weight="bold">
+    <text x="64" y="66" font-size="18" fill="#3E7CB1">02 · 数据与方法</text>
+    <text x="64" y="118" font-size="40" fill="#1B3A5C">四步 SQL 已写好并验证：uid 只在系统内建表，只导出汇总</text>
+  </g>
+
+  <g id="p10-step-00" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="64 168 310 96" fill="#1B3A5C" stroke="none">
+<path d="M 64 168 L 326 168 L 374 216 L 326 264 L 64 264 Z" />
+</g>
+  <g id="p10-step-01" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="334 168 310 96" fill="#1B3A5C" stroke="none">
+<path d="M 334 168 L 596 168 L 644 216 L 596 264 L 334 264 L 382 216 Z" />
+</g>
+  <g id="p10-step-02" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="604 168 310 96" fill="#1B3A5C" stroke="none">
+<path d="M 604 168 L 866 168 L 914 216 L 866 264 L 604 264 L 652 216 Z" />
+</g>
+  <g id="p10-step-03" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="874 168 310 96" fill="#1B3A5C" stroke="none">
+<path d="M 874 168 L 1136 168 L 1184 216 L 1136 264 L 874 264 L 922 216 Z" />
+</g>
+
+  <g id="step-labels" data-pptx-bounds="64 168 1152 96" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    <text x="204" y="225"><tspan font-family="Consolas, 'Microsoft YaHei', monospace" fill="#E3A21A">00</tspan> 数据摸底</text>
+    <text x="489" y="225"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">01</tspan> 状态表</text>
+    <text x="759" y="225"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">02</tspan> 截面汇总</text>
+    <text x="1029" y="225"><tspan font-family="Consolas, 'Microsoft YaHei', monospace">03</tspan> 转移汇总</text>
+  </g>
+
+  <g id="step-details" data-pptx-bounds="64 278 1152 160" font-size="20" fill="#1E2633">
+    <text x="72" y="306">月份覆盖、uid 能否跨期、<tspan x="72" dy="28">APP 名录、时长分布、</tspan><tspan x="72" dy="28">行为校验</tspan></text>
+    <text x="358" y="306">每期每人：属性、四类<tspan x="358" dy="28">平台时长、求职渠道、</tspan><tspan x="358" dy="28">停留出行、居住与工作</tspan><tspan x="358" dy="28">网格、状态</tspan></text>
+    <text x="628" y="306">每期按状态 × 年龄 × 户籍<tspan x="628" dy="28">× 求职渠道 × 区县汇总，</tspan><tspan x="628" dy="28">拼成全期面板</tspan></text>
+    <text x="898" y="306">相邻期转移；从业段（从<tspan x="898" dy="28">哪来、干多久、往哪去）；</tspan><tspan x="898" dy="28">人期表；进入和退出前后</tspan><tspan x="898" dy="28">各 4 期轨迹</tspan></text>
+    <g font-weight="bold" fill="#3E7CB1">
+      <text x="72" y="426">→ 6 张小表</text>
+      <text x="358" y="426">→ 5 张检查表</text>
+      <text x="628" y="426">→ 每期 10 张、趋势 5 张</text>
+      <text x="898" y="426">→ 约 20 张</text>
+    </g>
+  </g>
+
+  <g id="compliance" data-pptx-bounds="64 452 664 216">
+    <rect x="64" y="456" width="664" height="208" fill="#F3F5F8" />
+    <use data-icon="tabler-outline/lock" x="88" y="472" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+    <text x="128" y="494" font-size="24" font-weight="bold" fill="#1B3A5C">合规设计</text>
+    <g font-size="20" fill="#1E2633">
+      <text x="88" y="530">· 含 uid 的语句一律 <tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">CREATE TABLE</tspan>，只留在系统内</text>
+      <text x="88" y="560">· 导出结果不含 uid，uid 只出现在 <tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">count()</tspan> 里</text>
+      <text x="88" y="590">· 每张导出 ≤ 1 万行（实际最大约 5300 行），<tspan x="104" dy="30">少于 15 人显示“≤15”</tspan></text>
+      <text x="88" y="650">· 不能 drop：中间表带 <tspan font-family="Consolas, 'Microsoft YaHei', monospace" font-weight="bold" fill="#1B3A5C">_v1、_v2</tspan> 版本号</text>
+    </g>
+  </g>
+
+  <g id="verification" data-pptx-bounds="760 452 456 216">
+    <use data-icon="tabler-outline/circle-check" x="760" y="472" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+    <text x="800" y="494" font-size="24" font-weight="bold" fill="#1B3A5C">验证结果</text>
+    <g id="verify-statements">
+      <text x="760" y="562" font-size="48" font-weight="bold" fill="#1B3A5C">95</text>
+      <text x="836" y="540" font-size="20" font-weight="bold" fill="#1E2633">条语句全部合规</text>
+      <text x="836" y="566" font-size="18" fill="#5B6675">4 个 SQL 文件；Hive / Spark 语法通过</text>
+    </g>
+    <line x1="760" y1="588" x2="1216" y2="588" stroke="#D5DBE3" stroke-width="1" />
+    <g id="verify-spells">
+      <text x="760" y="652" font-size="48" font-weight="bold" fill="#1B3A5C">886</text>
+      <text x="860" y="630" font-size="20" font-weight="bold" fill="#1E2633">个从业段与独立计算一致</text>
+      <text x="860" y="656" font-size="18" fill="#5B6675">02、03 步用模拟数据测试</text>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 676 1152 40">
+    <line x1="64" y1="680" x2="1216" y2="680" stroke="#D5DBE3" stroke-width="1" />
+    <text x="64" y="704" font-size="14" fill="#5B6675">SQL 文件：00_数据摸底 · 01_状态表 · 02_截面汇总 · 03_转移汇总（尚未在 DaaS 平台实际运行）</text>
+    <text x="1216" y="704" font-size="14" fill="#5B6675" text-anchor="end">10 / 13</text>
+  </g>
+</svg>
